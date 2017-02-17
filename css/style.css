@@ -1,0 +1,55 @@
+#header {
+    background-color: black;
+}
+
+#header-img {
+    width: 75%;
+}
+
+.article-box {
+    min-height: 420px;
+    transition: box-shadow 0.5s
+}
+
+.article-box:hover {
+    box-shadow: 5px 0px 40px #4F3008;    
+}
+
+.article-img {
+    height: 110px !important;
+}
+
+
+footer {
+    position: absolute !important;
+    margin-bottom: 0px !important;
+    bottom: 0px;
+    padding-top: 15px;
+    height: 60px;
+    width: 100%;
+    background-color: #060606;
+    border-color: #282828;
+    border: 1px solid #282828;
+}
+
+.container {
+    margin-bottom: 40px;
+}
+
+.categories {
+    margin-bottom: 60px;
+}
+
+.blogpost {
+    margin-top: 60px;
+}
+
+.blogpost-image {
+    margin-right: 15px;
+    margin-bottom: 10px;
+}
+
+.post-path {
+    margin-bottom: -7px !important;
+    margin-top: 10px !important;
+}

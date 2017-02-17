@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <title>Anti Tracking and Security</title>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <link href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.7/cyborg/bootstrap.min.css" rel="stylesheet" />
+    <link href="css/style.css" rel="stylesheet" />
+</head>
+
+<body>
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#main-navbar"
+                    aria-expanded="false">
+                                <span class="sr-only">Navigation ein-/ausblenden</span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+                <a class="navbar-brand" href="index.html">Anti-Tracking.de</a>
+            </div>
+
+            <div class="collapse navbar-collapse" id="main-navbar">
+            <ul class="nav navbar-nav">
+                <li><a href="#">Security</a></li>
+                <li><a href="#">Browser</a></li>
+                <li><a href="#">Programme</a></li>
+            </ul>
+
+            <ul class="nav navbar-nav navbar-right">                
+                <form class="navbar-form navbar-left hidden-xs hidden-sm" role="search">
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Suchen">
+                    </div>
+                    <button type="submit" class="btn btn-default"><span class="glyphicon glyphicon-search"></span></button>
+                </form>             
+                <li><a id="login" href="#"><span class="glyphicon glyphicon-user"></span> Login</a></li>
+            </ul>
+        </div>
+        </div>
+    </nav>    
+
+    <div class="container blogpost">
+        <h2>Die lauernde Gefahr: Clickjacking</h2>
+        <hr>
+        <div class="row">
+            <div class="col-sm-5">
+                <span class="glyphicon glyphicon-user"></span> von <a href="#">Nabrezzelt</a>
+            </div>
+            <div class="col-sm-4">
+                <span class="glyphicon glyphicon-time"></span> veröffentlicht am 26.10.2016 um 23:54 Uhr    
+            </div>            
+        </div>
+        <div class="row">
+            <div class="col-sm-12">
+                <ul class="breadcrumb post-path">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Browser</a></li>
+                    <li class="active">Security</li>
+                </ul>
+            </div>
+        </div>        
+        <hr>
+        <div class="row">
+            <div class="col-sm-8">                
+                    <img src="images/clickjacking.png" class="img pull-left blogpost-image">
+                    
+
+
+
+                Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr.<br> Sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.<br>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat. Sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.   
+
+Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Lorem ipsum dolor sit amet.    
+            </div>
+            <div class="col-sm-4">
+                <div class="well">
+                    <h4>Andere interessante Posts</h4>
+                    <div class="media">
+                        <a href="#">
+                            <div class="media-left">
+                                <img src="images/noScript.jpg" class="media-object" style="width:60px">
+                            </div>
+                            <div class="media-body">
+                                <h4 class="media-heading">NoScript</h4>
+                                <p>Must have Firefox Addon!</p>
+                            </div>
+                        </a>
+                    </div>
+
+                                       
+                </div>
+            </div>
+        </div>
+    </div>    
+
+    <footer>
+        <div class="container-fluid">
+            <div class="row text-center">
+                <div class="col-sm-6 footer-item"><a href="#">Impressum</a></div><div class="col-sm-6 footer-item"><a href="#">Datenschutz</a></div>
+            </div>                   
+        </div>
+    </footer>
+
+    <!-- jQuery und Bootstrap JS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</body>
+
+</html>
